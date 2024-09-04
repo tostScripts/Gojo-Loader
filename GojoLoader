@@ -1,0 +1,21 @@
+wait(8)
+
+game.StarterGui:SetCore("SendNotication", {
+	Title = "toast Gojo script";
+	Text = "Script made by holylama9";
+	Icon = "http://www.roblox.com/asset/?id=15472076238";
+	Duration = "7";
+	Button1 = "ok";
+})
+
+wait(5)
+
+game.StarterGui:SetCore("SendNotication", {
+	Title = "Bug report";
+	Text = "if you see bug discord:holylama9";
+	Icon = "http://www.roblox.com/asset/?id=18505728250";
+	Duration = "7";
+	Button1 = "aight bet";
+})
+
+loadstring(game:HttpGet("https://pastebin.com/raw/QmbNayPi"))();
